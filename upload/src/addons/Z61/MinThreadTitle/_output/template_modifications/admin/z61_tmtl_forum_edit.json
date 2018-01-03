@@ -1,0 +1,9 @@
+{
+    "template": "forum_edit",
+    "description": "Adds thread minimum title length fields",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "str_replace",
+    "find": "<xf:formrow rowtype=\"input\"\n\t\t\t\tlabel=\"{{ phrase('default_sort_order') }}\">",
+    "replace": "<xf:include template=\"z61_mtml_forum_edit\" />\n$0"
+}

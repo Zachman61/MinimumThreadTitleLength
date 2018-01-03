@@ -1,0 +1,13 @@
+<xf:checkboxrow>
+	<xf:option name="z61_character_min_enable" selected="$forum.z61_character_min_enable"
+			   label="{{ phrase('z61_mttl_enable_length_constraint') }}"
+			   hint="{{ phrase('z61_mttl_enable_length_constraint_explain') }}">
+		<xf:dependent>
+			<xf:numberbox name="z61_character_min" value="{{ $forum.z61_character_min }}"
+						  min="5"
+						  max="{{ max_length('XF:Thread', 'title')}}"
+                          explain="Test"
+						  />
+		</xf:dependent>
+	</xf:option>
+</xf:checkboxrow>

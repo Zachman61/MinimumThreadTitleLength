@@ -1,0 +1,26 @@
+{
+    "permission.forum_bypassThreadTitleReq.txt": {
+        "global_cache": false,
+        "version_id": 2000000,
+        "version_string": "2.0.0",
+        "hash": "575327f3683ab4c45911d65fe91f6fa5"
+    },
+    "z61_mttl_enable_length_constraint.txt": {
+        "global_cache": false,
+        "version_id": 2000000,
+        "version_string": "2.0.0",
+        "hash": "b4f806349b376b994c31a8c462f1bd60"
+    },
+    "z61_mttl_enable_length_constraint_explain.txt": {
+        "global_cache": false,
+        "version_id": 2000000,
+        "version_string": "2.0.0",
+        "hash": "c0c37ba82b68097e6a2394d08d3ea6b1"
+    },
+    "z61_mttl_title_length_must_be_at_least_x.txt": {
+        "global_cache": false,
+        "version_id": 2000000,
+        "version_string": "2.0.0",
+        "hash": "6f4d54a2ad2aeb7656d2b96503fdd5ea"
+    }
+}

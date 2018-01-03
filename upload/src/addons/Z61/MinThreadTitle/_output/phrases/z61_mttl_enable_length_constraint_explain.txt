@@ -1,0 +1,1 @@
+If enabled, users who don't have the bypass permission will have to have a thread meeting the defined minimum length.

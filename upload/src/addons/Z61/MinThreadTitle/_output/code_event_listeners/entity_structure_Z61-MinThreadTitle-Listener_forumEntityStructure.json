@@ -1,0 +1,9 @@
+{
+    "event_id": "entity_structure",
+    "execute_order": 10,
+    "callback_class": "Z61\\MinThreadTitle\\Listener",
+    "callback_method": "forumEntityStructure",
+    "active": true,
+    "hint": "XF\\Entity\\Forum",
+    "description": "Adds minimum thread title columns to entity structure"
+}
