@@ -2,7 +2,7 @@
 XenForo 2.0 add-on that imposes a minimum thread title length requirement on users who lack permission to bypass it.
 
 ## Details
-TBA
+https://xenforo.com/community/resources/minimum-thread-title-length.6033/
 
 ## More Info
 
