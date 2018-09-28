@@ -12,8 +12,8 @@ class Forum extends XFCP_Forum
 
         $form->setup(function() use ($data)
         {
-            $data->z61_character_min_enable = $this->filter('z61_character_min_enable', 'bool');
-            $data->z61_character_min = $this->filter('z61_character_min', 'int');
+            $data->z61_character_min_enable = $this->filter('z61_character_min_enable', 'bool', false);
+            $data->z61_character_min = $this->filter('z61_character_min', 'int', 5);
         });
     }
 }
